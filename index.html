@@ -8,22 +8,26 @@
   
       </style>
 </head>
-
+<!--adding stylesheet page to index page-->
+<link rel="stylesheet" href="styles.css">
 <body>
+  <!-- Add photo to top -->
   <table>
     <tr>
-      <td><img src="image/cutepuppy.png" alt="cute puppy" width ="150" height="150"></td>
+      <td><img src="image\cutepuppy.png" alt="cute puppy" width ="150" height="150"></td>
       <td><h1>Deepanshu Sharma</h1>
         <p><em>Persuing my <b>B.Tech from ECE 4th Year</b></em><br>
         I am a student and passionate developer and i ❤ coffee.</p></td>
     </tr>
   </table>
   <hr>
+  <!-- make list of hobbies -->
   <h3>Hobbies</h3>
   <ul>
     <li>Gaming</li>
     <li>coding</li>
   </ul>
+  <!-- table -->
   <table border="1">
       <thead>
         <tr>
@@ -84,11 +88,94 @@
         </tr>
       </table>
   <hr>
+  <!--Reddit search any query form -->
+      <h2>Reddit Search Engine </h2>
+      <form action="https://www.reddit.com/search">
+        <input type="text" name="q">
+        <button>Search Reddit</button>
+      </form>
+  <!--google search-->
+      <H2>Google search</H2>
+      <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search Google</button>
+      </form>
+  <!-- download button-->
   <h3>Refrences</h3>
   <a download href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">Cheatsheet</a>
     <br>
   <hr>
-  <button><a href="Contact.html">Contact me</a></button>
+  <!--check box and radio buttons and selectors-->
+  
+  <h3>Shirt size <b>(Radio button)</b></h3>
+  <p> <form action="/size"> 
+    <p>
+        <input type="checkbox" id="agree" name="agree to t&c">
+        <label for="agree">I Agree all the T&C</label>
+    </p>
+          <label for="XS">XS</label>
+         <input type="radio" name="size" id="XS" value="xs">
+          <label for="S">S</label>
+         <input type="radio" name="size" id="S" value="s">
+          <label for="M">M</label>
+         <input type="radio" name="size" id="M" value="m">
+          <label for="XL">XL</label>
+         <input type="radio" name="size" id="XL" value="xl">
+         <p>
+
+          <h2>Select menu</h2>
+      <label for="days">Choose a day</label>
+      <select name="days" id="days">
+        <option value="">---Please Choose a Day---</option>
+        <option value="Mon">Monday</option>
+        <option value="Tue">Tuesday</option>
+        <option value="Wed">Wednesday</option>
+        <option value="Thu">Thursday</option>
+        <option value="Fri">Friday</option>
+        <option value="Sat">Saturday</option>
+        <option value="Sun">Sunday</option>
+         </p>
+      </form>
+     </p> 
+        </select> 
+        <button>submit</button>
+        <p><a href="marathon.html">Race Registration!</a></p>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Contact button-->
+  <p><button><a href="Contact.html">Contact me</a></button></p>
+  
+
+
 </body>
 
 </html>

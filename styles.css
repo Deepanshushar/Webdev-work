@@ -3,5 +3,14 @@ hr{
   border-style: dotted;
 }
 h1 {
-    color: red;
+   text-align:center;
   }
+table{
+    text-align: center;
+  }
+#dayy{
+  background-color: aqua;
+}
+#agree{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

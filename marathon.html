@@ -9,17 +9,17 @@
     <H1>Race Registration</H1>
     <form action="details">
         <label for="fname">First Name</label>
-        <input type="text" name="" id="fname">
+        <input type="text" name="fname" id="fname">
         <label for="lname">Last Name</label>
-        <input type="text" name="Last Name" id="lname">
+        <input type="text" name="lname" id="lname">
         <p>
             <h4>Select a race</h4>
            <p> <label for="race1">Fun Race 5k</label>
-            <input type="radio" id="race1" name="race"></p>
+            <input type="radio" id="race1" name="race" value="1"></p>
            <p> <label for="race2">Half Marathon</label>
-            <input type="radio" id="race2" name="race"></p>
+            <input type="radio" id="race2" name="race" value="2"></p>
            <p> <label for="race3">Full marathon</label>
-            <input type="radio" name="race" id="race3"></p>
+            <input type="radio" name="race" id="race3" value="3"></p>
         </p>
         <label for="email">Email</label>
         <input type="email" id="email" name="email" required>
@@ -28,12 +28,13 @@
         <p>
             <label for="age">Select Age Group</label>
             <select name="age" id="age">
-                <option value="age">under 18</option>
-                <option value="age">18-30</option>
-                <option value="age">30-50</option>
-                <option value="age">50+</option>
+                <option value="under 18">under 18</option>
+                <option value="18-30">18-30</option>
+                <option value="30-50">30-50</option>
+                <option value="50+">50+</option>
             </select>
         </p>
+        <div><button>register</button></div>
     </form>
 </body>
 </html>

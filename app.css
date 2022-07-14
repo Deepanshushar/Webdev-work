@@ -1,12 +1,26 @@
-div{
-    width:210px;
-    border: 1px solid grey;
-    border-radius:5px;
-    text-align:center;   
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    
 }
-img{
-    width:200px;
-    border: 5px solid rgb(236,183,191);
-   
-    border-radius: 50%;
+div{
+    
+    background-color: #E4F9F5;
+    
+}
+h1{
+    margin: 0px;
+    
+}
+.top-cloud{
+    margin-top: 20px;
+    margin-left: 414px;
+    position: relative;
+    margin-bottom: 0% 
+}
+.bottom-cloud{
+    position: absolute;
 }
